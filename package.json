@@ -1,0 +1,25 @@
+{
+	"name": "insert-cdn-webpack-plugin",
+	"version": "0.0.1",
+	"description": "Plugin for webpack to insert CDN link dynamically based on externals.",
+	"author": "Yang Zhedi <uiryzd@gmail.com> (https://github.com/Yangzhedi)",
+	"main": "index.js",
+	"keywords": [
+		"webpack",
+		"plugin",
+		"insert-cdn",
+		"insert-cdn-webpack-plugin"
+	],
+	"bugs": "https://github.com/Yangzhedi/insert-cdn-webpack-plugin/issues",
+	"homepage": "https://github.com/Yangzhedi/insert-cdn-webpack-plugin",
+	"repository": "https://github.com/Yangzhedi/insert-cdn-webpack-plugin.git",
+	"engines": {
+		"node": ">=6.9"
+	},
+	"peerDependencies": {
+		"webpack": "^4.0.0"
+	},
+	"dependencies": {
+		"webpack-log": "^3.0.1"
+	}
+}
